@@ -11,6 +11,10 @@ theme = "anemone"
 
 default_language = "es"
 
+taxonomies = [
+    {name = "tags", feed = true},
+]
+
 [markdown]
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
@@ -33,7 +37,7 @@ header_nav = [
   { url = "/", name_en = "/home/", name_es = "/inicio/" },
   # { url = "/about", name_en = "/about/", name_es = "/acerca/" },
   # { url = "/journal", name_en = "/journal/", name_es = "/diario/" },
-  # { url = "/blog", name_en = "/blog/", name_es = "/blog/" }
+  { url = "/blog", name_en = "/blog/", name_es = "/blog/" }
 ]
 
 languages = [
